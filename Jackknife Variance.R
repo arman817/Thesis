@@ -353,9 +353,9 @@ func <- function(s){
                     Variance_GLM_Estimate_Incorrect)
   return(Estimate)
 }
-Seed_Value <- read.csv(file="/home/arman13/Thesis/Seeds/seed4.csv", header=FALSE, sep=",")[,1]
+Seed_Value <- read.csv(file="/home/arman13/Thesis/Seeds/seed.csv", header=FALSE, sep=",")[,1]
 for(p in start:end){
   Val <- func(Seed_Value[p])
-  outpath=paste("/home/arman13/Thesis/100Output/Output4/Sim_",start,"_",end,".txt",sep="")
+  outpath=paste("/home/arman13/Thesis/Output/Sim_",start,"_",end,".txt",sep="")
   write.table(Val, outpath, row.names = F, col.names=F, sep="\t")
 }
