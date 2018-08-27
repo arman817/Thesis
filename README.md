@@ -2,7 +2,7 @@
 
 
 This repository contains the simulation codes along with the theoretical results and proofs for the thesis based on
-2 stge sampling. The codes will be updated as soon as I'm done with the coding.
+two stage sampling.
 
 
 **Rough Idea**
